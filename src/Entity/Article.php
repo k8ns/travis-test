@@ -1,5 +1,5 @@
 <?php
-namespace TravisLearn\Entity;
+namespace Entity;
 
 class Article
 {

@@ -1,10 +1,11 @@
 <?php
-namespace TravisLearn\Factory;
+namespace Factory;
 
-use TravisLearn\Entity\Article;
+use Entity\Article;
 
 class ArticleFactory
 {
+
     public static function create()
     {
         return new Article();
