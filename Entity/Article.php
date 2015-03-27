@@ -4,6 +4,7 @@ namespace TravisLearn\Entity;
 class Article
 {
 
+
     private $id;
 
     private $title;
