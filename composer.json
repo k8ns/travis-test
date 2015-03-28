@@ -10,8 +10,7 @@
     "minimum-stability": "stable",    
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
-        "squizlabs/php_codesniffer": "1.5.*",
-        "satooshi/php-coveralls": "dev-master"
+        "squizlabs/php_codesniffer": "1.5.*"        
     },
     "autoload": {
         "psr-4": {
