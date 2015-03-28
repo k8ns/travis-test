@@ -6,9 +6,13 @@
             <directory suffix="Test.php">test</directory>            
         </testsuite>
     </testsuites>
+    <logging>        
+        <log type="coverage-php" target="build/cov/coverage.cov"/>        
+    </logging>
     <filter>
         <blacklist>
             <directory>./vendor</directory>
+            <directory>./build</directory>
         </blacklist>
     </filter>
 </phpunit>
