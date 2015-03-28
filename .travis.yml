@@ -20,8 +20,7 @@ matrix:
 
 script:
   - mkdir build
-  - ./vendor/bin/phpunit -c phpunit.xml.dist --coverage-clover build/clover.xml
-  - ./vendor/bin/phpcs --standard=PSR2 --ignore=./test/bootstrap.php ./src/ ./test/
+  - ./vendor/bin/phpunit -c phpunit.xml.dist --coverage-clover build/clover.xml  
   
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
