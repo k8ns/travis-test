@@ -6,7 +6,11 @@
         </testsuite>
     </testsuites>
     <logging>        
-        <log type="coverage-clover" target="build/report.xml"/>
+        <log type="coverage-clover" target="build/clover.xml"/>
+        <log type="coverage-crap4j" target="build/crap4j.xml"/>
+        <log type="coverage-html" target="build/report.html"/>
+        <log type="coverage-text" target="build/text.txt"/>
+        <log type="coverage-xml" target="build/report.xml"/>
     </logging>
     <filter>
         <blacklist>
@@ -15,3 +19,4 @@
         </blacklist>
     </filter>
 </phpunit>
+
