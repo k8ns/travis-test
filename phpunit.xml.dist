@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="./vendor/autoload.php" colors="true">
-
     <testsuites>
-        <testsuite name="Design Patterns">
+        <testsuite name="Travis Learn">
             <directory suffix="Test.php">test</directory>            
         </testsuite>
     </testsuites>
     <logging>        
-        <log type="coverage-php" target="build/cov/coverage.cov"/>        
+        <log type="coverage-clover" target="build/report.xml"/>
     </logging>
     <filter>
         <blacklist>

@@ -19,8 +19,7 @@ matrix:
   fast_finish: true
 
 script:
-  - mkdir build
-  - ./vendor/bin/phpunit -c phpunit.xml.dist --coverage-clover build/clover.xml  
+  - mkdir build  
   
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
