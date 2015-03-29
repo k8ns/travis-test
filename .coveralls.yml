@@ -1,1 +1,6 @@
-repo_token: LyrV0fx6X6JpSadxUB7r6IZmWlR14WFw9
+repo_tolen: LyrV0fx6X6JpSadxUB7r6IZmWlR14WFw9
+service_name: travis-ci
+
+src_dir: src
+coverage_clover: build/logs/clover.xml
+json_path: build/logs/coveralls-upload.json
