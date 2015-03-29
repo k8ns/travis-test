@@ -15,7 +15,7 @@ class ArticleTest extends \PHPUnit_Framework_TestCase
         $this->assertNull($article->getBody());
     }
 
-    /*public function testIsSettersWorksPerfectly()
+    public function testIsSettersWorksPerfectly()
     {
         $article = new Article();
         $article->setId(5);
@@ -25,5 +25,5 @@ class ArticleTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(5, $article->getId());
         $this->assertEquals('Title', $article->getTitle());
         $this->assertEquals('Content', $article->getBody());
-    }*/
+    }
 }
